@@ -10,7 +10,7 @@ sub get_vars
 		print ("http://$ENV{SERVER_NAME}","$ENV{DOCUMENT_ROOT}","menu.htm");
 		
 	}
-	return ("http://$ENV{SERVER_NAME}","$ENV{DOCUMENT_ROOT}","menu.htm");
+	return ("http://$ENV{SERVER_NAME}:$ENV{SERVER_PORT}","$ENV{DOCUMENT_ROOT}","menu.htm");
 }
 
 

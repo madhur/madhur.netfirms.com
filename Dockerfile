@@ -36,5 +36,6 @@ VOLUME ["/var/www/html"]
 
 EXPOSE 8080
 
+RUN a2enmod include
 
 ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
