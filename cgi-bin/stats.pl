@@ -1,4 +1,4 @@
-#!e:/perl/bin/perl.exe
+#!/usr/bin/perl -w
 use CGI::Carp qw(fatalsToBrowser); 
 require 'func.pl';
 

@@ -1,6 +1,15 @@
 
 sub get_vars
 {
+
+	if(!$ENV{'SERVER_NAME'}) {
+		$ENV{'SERVER_NAME'} = "localhost:8080";
+		$ENV{'DOCUMENT_ROOT'} = "/var/www/html";
+		$ENV{'REMOTE_ADDR'} = "127.0.0.1";	
+		$ENV{'HTTP_USER_AGENT'} = "Chrome";		
+		print ("http://$ENV{SERVER_NAME}","$ENV{DOCUMENT_ROOT}","menu.htm");
+		
+	}
 	return ("http://$ENV{SERVER_NAME}","$ENV{DOCUMENT_ROOT}","menu.htm");
 }
 

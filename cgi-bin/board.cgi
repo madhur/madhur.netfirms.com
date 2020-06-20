@@ -1,4 +1,4 @@
-#!e:/perl/bin/perl.exe
+#!/usr/bin/perl -w
 
 ######################################################################
 #  BEFORE TRYING TO EDIT THIS SCRIPT, READ THE README FILE

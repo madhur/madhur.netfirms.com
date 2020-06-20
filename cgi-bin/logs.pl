@@ -1,4 +1,4 @@
-#!e:/perl/bin/perl.exe
+#!/usr/bin/perl -w
 
 # Copyright 2001 David J Spelts  All Rights Reserved.
 require 'func.pl';
