@@ -23,12 +23,12 @@ print <<EOF1;
 <html>
 <head>
 <title>Tips & Troubleshooting</title>
-<base href=$siteurl>
+
 <style>
 A:visited {text-decoration: none;} A:link {text-decoration: none;} A:active {text-decoration: none;} A:hover {text-decoration: underline; color:red;}
 </style>
 
-<link rel="stylesheet" type="text/css" href="programming.css" />
+<link rel="stylesheet" type="text/css" href="/programming.css" />
 
 EOF1
 ;

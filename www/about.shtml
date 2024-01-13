@@ -2,7 +2,7 @@
 <head>
 <title>about</title>
 <!--#include file="menu.htm" -->
-<link rel="stylesheet" type="text/css" href="programming.css" />
+<link rel="stylesheet" type="text/css" href="/programming.css" />
 
 <h1 align=center>Something about me</h1>
 

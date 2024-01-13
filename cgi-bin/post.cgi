@@ -19,10 +19,10 @@ print <<EOF1;
 <html>
 <head>
 <title>Post a Message</title>
-<base href=$siteurl>
 
 
-<link rel="stylesheet" type="text/css" href="programming.css" />
+
+<link rel="stylesheet" type="text/css" href="/programming.css" />
 
 EOF1
 ;

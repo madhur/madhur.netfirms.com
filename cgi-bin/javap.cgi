@@ -19,7 +19,7 @@ print <<EOF1;
 <html>
 <head>
 <title>$in{title}</title>
-<base href=$siteurl>
+
 
 <link rel="stylesheet" type="text/css" href="programs.css" />
 <script language=javascript src=scripts/jsp.js> </script>

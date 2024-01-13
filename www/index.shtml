@@ -13,7 +13,7 @@ function StartClock24() {
 </script>
 
 <title>Welcome to HomePage of Madhur</title>
-<link rel="stylesheet" type="text/css" href="programming.css" />
+<link rel="stylesheet" type="text/css" href="/programming.css" />
 <!--#include file="menu.htm" -->
   <h1 align=center>WelCome to HomePage of Madhur</h1>
   <h6 align=right><i>Dedicated to Usenet Community;<br>for many questions answered,<br>and many FAQs provided.</i></h6>

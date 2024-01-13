@@ -3,7 +3,7 @@
 <title>Programming</title>
 <!--#include file="menu.htm" -->
 
-<link rel="stylesheet" type="text/css" href="programs.css" />
+<link rel="stylesheet" type="text/css" href="/programs.css" />
 
 <h1 align="center">Sample Programs</h1>
 <p>Some of the program might not have included source code. Its because I intend to enhance those programs in future. 

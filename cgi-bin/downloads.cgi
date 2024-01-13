@@ -22,9 +22,9 @@ print <<EOF1;
 <html>
 <head>
 <title>Articles</title>
-<base href=$siteurl>
 
-<link rel="stylesheet" type="text/css" href="programming.css" />
+
+<link rel="stylesheet" type="text/css" href="/programming.css" />
 
 EOF1
 ;
@@ -47,7 +47,7 @@ if($ENV{'QUERY_STRING'} eq "")
 	while(<MYFILE>)
 	{
 		my %words=split(/\|/);
-		print "<li><a href=\"$words{FILE}\">$words{DESC}</a></li>";
+		print "<li><a href=\"/$words{FILE}\">$words{DESC}</a></li>";
 	}
 	close MYFILE;
 

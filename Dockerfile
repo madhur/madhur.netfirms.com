@@ -1,5 +1,4 @@
-FROM ubuntu:16.04
-
+FROM debian:bookworm
 RUN \
     DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
@@ -17,11 +16,7 @@ RUN \
         cpanminus \
         libexpat1-dev \
         libssl-dev \
-        mysql-client \
-        libmysqlclient-dev \
-        libapreq2-dev \
         zip && \
-    cpanm DBD::mysql && \
     a2enmod cgid && \
     a2enmod rewrite && \
     a2dissite 000-default && \
@@ -30,12 +25,7 @@ RUN \
     apt-get -y clean
 
 COPY localhost.conf /etc/apache2/sites-enabled/localhost.conf
-
 VOLUME ["/var/www/html"]
-
-
 EXPOSE 8080
-
 RUN a2enmod include
-
 ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
