@@ -18,9 +18,9 @@ print <<EOF1;
 <html>
 <head>
 <title>Quotes</title>
-<base href=$siteurl>
 
-<link rel="stylesheet" type="text/css" href="programming.css" />
+
+<link rel="stylesheet" type="text/css" href="/programming.css" />
 
 EOF1
 ;

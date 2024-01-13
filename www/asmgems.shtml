@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Tips & Tricks</title>
-<link rel="stylesheet" type="text/css" href="programming.css" />
+<link rel="stylesheet" type="text/css" href="/programming.css" />
 <!--#include file="menu.htm" -->
 
 <h1 align="center">Tips & Tricks</h2>

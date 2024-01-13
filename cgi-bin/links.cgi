@@ -27,7 +27,7 @@ print <<EOF1;
 
 <head>
 <title>Links</title>
-<base href=$siteurl>
+
 
 <script language=javascript1.2>
 
@@ -52,7 +52,7 @@ function MM_jumpMenu(targ,selObj,restore){
 
 
 
-<link rel="stylesheet" type="text/css" href="programming.css" />
+<link rel="stylesheet" type="text/css" href="/programming.css" />
 
 EOF1
 ;
@@ -75,7 +75,7 @@ if($in{'category'} =~/^[A-Za-z ]+/ and $in{'url'} eq "")
 	<table width="98%" border="0" cellspacing="0" align="center">
   <tr  > 
     <td height="60"> 
-      <div align=left><a href="/cgi-bin/links.cgi?action=add"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="post.gif" width="32" height="20" align="top" border="0"><font color="#006699">Submit a URL</font></font></a> </div>
+      <div align=left><a href="/cgi-bin/links.cgi?action=add"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="/post.gif" width="32" height="20" align="top" border="0"><font color="#006699">Submit a URL</font></font></a> </div>
     </td>
   </tr>
   <tr  > 
@@ -113,7 +113,7 @@ EOF1
 print <<EOF1
 
       <hr size="1">
-      <img src="line.gif" width="525" height="1"> 
+      <img src="/line.gif" width="525" height="1"> 
       <table width="100%" border="0">
         <tr> 
           <td width="100%"> 
