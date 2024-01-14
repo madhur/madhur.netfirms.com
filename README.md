@@ -21,11 +21,13 @@ The site can still be made runnable using the supplied `Dockerfile`
 
 ### Screenshots
 
-<img src=https://raw.githubusercontent.com/madhur/MyOldSite/images/ss1.png />
+Homepage:  
+<img src=https://raw.githubusercontent.com/madhur/MyOldSite/master/images/ss1.png />
 
 <div style="float:clear"></div>
 
-<img src=https://raw.githubusercontent.com/madhur/MyOldSite/images/ss2.png />
+About Me:  
+<img src=https://raw.githubusercontent.com/madhur/MyOldSite/master/images/ss2.png />
 
 ### Way forward
 
