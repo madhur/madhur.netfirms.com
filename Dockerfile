@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:trixie
 RUN \
     DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
